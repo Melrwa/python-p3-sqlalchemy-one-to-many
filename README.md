@@ -226,8 +226,8 @@ and several other fields in models. Our `convention` provides a template for
 naming these changes, and `metadata` saves them to a `sqlalchemy.MetaData`
 object. Passing this to our `declarative_base` object allows Alembic to generate
 these names automatically when we autogenerate migrations.
-
 Run `alembic revision --autogenerate -m'Create Game Model'` from inside of the
+
 `lib/` directory. You should see the following output:
 
 ```console
